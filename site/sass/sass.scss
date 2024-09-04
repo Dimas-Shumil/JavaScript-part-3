@@ -59,7 +59,7 @@ h3 {
 p {
     font-family: $font-family-sans-serif;
     font-size: 16px;
-    margin: 0 20px 22px;
+    margin: 0 20px 10px;
     margin-top: 20px;
     letter-spacing: 1px;
 
@@ -92,6 +92,14 @@ blockquote {
             margin-bottom: 30px;
         }
 
+        &-box_lightblue {
+            width: 90%;
+            border: 1px solid grey;
+            border-radius: 4px;
+            background-color: $accent-a;
+            margin-bottom: 30px; 
+        }
+
         &-conteiner {
             width: 80%;
             padding-bottom: 30px;
@@ -108,7 +116,12 @@ table {
         padding: 10px 15px;
     }
 }
-
+figure {
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #666666);
+    padding-top: 30px;
+}
 
 // кнопка прокрутки вверх
 
