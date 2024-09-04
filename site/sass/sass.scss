@@ -10,6 +10,7 @@ $dark-gray: #454545;
 $primary: #0a3055;
 $secondary: #454545;
 $brand: #9d0054;
+$linkColor: #B5E916;
 $success: #bdfa07;
 $info: #006daa;
 $warning: #ffd900;
@@ -71,6 +72,10 @@ blockquote {
     margin: 0 40px 22px;
     margin-top: 20px;
     letter-spacing: 1px;
+}
+// span
+.wrapper__text {
+    color: $linkColor;
 }
 
 .main {
